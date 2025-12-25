@@ -8,6 +8,8 @@ on:
 jobs:
   tests:
     runs-on: ubuntu-latest
+    env:
+      APP_ENV: prod
 
     steps:
       - uses: actions/checkout@v4
